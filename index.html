@@ -3,8 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="This is the description of the page">
-  <meta name="author" content="Jeremy Shanks">
   <title>Osama Portfolio</title>
 
   <style>
@@ -58,15 +56,16 @@
       header p { padding-left: 4.5em;}
     }
   </style>
+  <!-- I used media queries cause only need this file if we are planning on printing-->
   <link href="css/print.css" rel="stylesheet" media="print">
-
+  <!--to stop js from blocking the rendering path we used async property-->
   <script src="http://www.google-analytics.com/analytics.js" async></script>
-  <script async src="js/perfmatters.js"></script>
+  <script  src="js/perfmatters.js" async></script>
 </head>
 
 <body>
 <header>
-  <a href="/"><img src="img/profilepic.png"></a>
+  <img src="img/profilepic.png">
   <p>Osama Alfaify <br><span> Developer</span></p>
 </header>
 
@@ -104,9 +103,11 @@
   </div>
 
   <footer>
-    <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
+    <p>&copy; Web Performance 2018 <span id="crp-stats"></span></p>
   </footer>
+</div>
 </body>
+<!--script can be render blocking, therefor we leave script functions last -->
 <script>
     (function(w,g){w['GoogleAnalyticsObject']=g;
         w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
