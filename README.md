@@ -31,11 +31,11 @@ In order for you to run this site :
 
 # Desktop `index.html` score :
 93/100
-https://github.com/OsamaAlfaify/frontend-nanodegree-mobile-portfolio/blob/master/screenshots/Screen%20Shot%202018-01-27%20at%201.00.30%20AM.png
+- https://github.com/OsamaAlfaify/frontend-nanodegree-mobile-portfolio/blob/master/screenshots/Screen%20Shot%202018-01-27%20at%201.00.30%20AM.png
 
 # Mobile `index.html` score :
 99/100
-https://github.com/OsamaAlfaify/frontend-nanodegree-mobile-portfolio/blob/master/screenshots/Screen%20Shot%202018-01-27%20at%201.00.34%20AM.png
+- https://github.com/OsamaAlfaify/frontend-nanodegree-mobile-portfolio/blob/master/screenshots/Screen%20Shot%202018-01-27%20at%201.00.34%20AM.png
 
 # Resources & Tools:
 * [page speed insight](https://developers.google.com/speed/pagespeed/)
