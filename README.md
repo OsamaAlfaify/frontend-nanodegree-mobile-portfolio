@@ -23,7 +23,6 @@ In order for you to run this site :
 - Take almost the `var` declerations out of loops.
 - Take some calculations out of loops as we don't need them to recalculate with every iteration when the result is always the same.
 - compress all images.
-- Minify JS and CSS files.
 - Change every `querySelector` with `getElementById` cause it's faster.
 - Save the array length in a varibale `Length`, so the value isn't checked with every iteration.
 ---------------------------
