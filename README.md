@@ -6,17 +6,17 @@ The purpose of this project is to optimize this online portfolio for speed In pa
 ---------------------------
 # Getting started
 In order for you to run this site :
-1- You can download all the files from [my repo](https://github.com/osamaalfaify/frontend-nanodegree-mobile-portfolio) and open `index.html` in your web browser.
-2- You can just [click here](https://osamaalfaify.github.io/frontend-nanodegree-mobile-portfolio/)
+- You can download all the files from [my repo](https://github.com/osamaalfaify/frontend-nanodegree-mobile-portfolio) and open `index.html` in your web browser.
+- You can just [click here](https://osamaalfaify.github.io/frontend-nanodegree-mobile-portfolio/)
 ---------------------------
 # Changes made to optimize this site :
 # Part 1: Optimize PageSpeed Insights score for index.html
-1- Use `async` attribute to stop JS from blocking the rendering path by synchronously loading low priority scripts.
-2- Place the function inside `<script>` at the bottom of the `<body>`
-3- Remove the web font as it can slow the page down.
-4- Compress the images to reudce their size.
-5- Resize the pizza image.
-6- Use media querie `media="print"` for the external `print.css` sheet as you don't need it to load every time you open the page unless you are planning on printing.
+- Use `async` attribute to stop JS from blocking the rendering path by synchronously loading low priority scripts.
+- Place the function inside `<script>` at the bottom of the `<body>`
+- Remove the web font as it can slow the page down.
+- Compress the images to reudce their size.
+- Resize the pizza image.
+- Use media querie `media="print"` for the external `print.css` sheet as you don't need it to load every time you open the page unless you are planning on printing.
 ---------------------------
 
 # Part 2: Optimize Frames per Second in pizza.html
