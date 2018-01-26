@@ -9,8 +9,8 @@ In order for you to run this site :
 1- You can download all the files from [my repo](https://github.com/osamaalfaify/frontend-nanodegree-mobile-portfolio) and open `index.html` in your web browser.
 2- You can just [click here](https://osamaalfaify.github.io/frontend-nanodegree-mobile-portfolio/)
 ---------------------------
-#### Changes made to optimize this site :
-#### Part 1: Optimize PageSpeed Insights score for index.html
+### Changes made to optimize this site :
+# Part 1: Optimize PageSpeed Insights score for index.html
 1- Use `async` attribute to stop JS from blocking the rendering path by synchronously loading low priority scripts.
 2- Place the function inside `<script>` at the bottom of the `<body>`
 4- Remove the web font as it can slow the page down.
@@ -19,7 +19,7 @@ In order for you to run this site :
 7- Use media querie `media="print"` for the external `print.css` sheet as you don't need it to load every time you open the page unless you are planning on printing.
 ---------------------------
 
-#### Part 2: Optimize Frames per Second in pizza.html
+# Part 2: Optimize Frames per Second in pizza.html
 1- Take almost the `var` declerations out of loops.
 2- Take some calculations out of loops as we don't need them to recalculate with every iteration when the result is always the same.
 3- compress all images.
