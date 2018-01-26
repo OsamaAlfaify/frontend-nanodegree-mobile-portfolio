@@ -1,5 +1,5 @@
 /*
-Welcome to the 60fps project! Your goal is to make Cam's Pizzeria website run
+Welcome to the 60fps project! Your goal is to make Os's Pizzeria website run
 jank-free at 60 frames per second.
 
 There are two major issues in this code that lead to sub-60fps performance. Can
@@ -443,12 +443,13 @@ var resizePizzas = function(size) {
     }
   var randomPizzas = document.querySelectorAll(".randomPizzaContainer");
 
-  // Iterates through pizza elements on the page and changes their widths
+  // Iterates through pizza elements
    dx = determineDx(randomPizzas[0], size);
    newwidth = (randomPizzas[0].offsetWidth + dx) + 'px';
   function changePizzaSizes(size) {
-    var pLength = randomPizzas.length;
-    for (var i = 0; i < pLength ; i++) {
+    // length of pizza
+    var Length = randomPizzas.length;
+    for (var i = 0; i < Length ; i++) {
       randomPizzas[i].style.width = newwidth;
     }
   }
